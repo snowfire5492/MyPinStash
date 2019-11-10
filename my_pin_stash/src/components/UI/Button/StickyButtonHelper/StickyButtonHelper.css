@@ -1,0 +1,38 @@
+.StickyButton {
+    position: sticky;
+    left: 80%;
+    bottom: 2%;
+    width: 50px;
+}
+
+@media (min-width: 450px){
+    .StickyButton {
+        left: 82%;
+    }
+}
+@media (min-width: 550px){
+    .StickyButton {
+        left: 85%;
+    }
+}
+
+
+@media (min-width: 700px){
+    .StickyButton {
+        left: 87%;
+        bottom: 3%
+    }
+}
+
+
+@media (min-width: 950px){
+    .StickyButton {
+        left: 90%;
+    }
+}
+
+/* .StickyButton:hover,
+.StickyButton:valid {
+    cursor: pointer;
+} */
+

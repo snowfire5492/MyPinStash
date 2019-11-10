@@ -1,4 +1,15 @@
 .Wrapper {
-    text-align: center;
-    background: blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
 }
+
+.Layout {
+    text-align: center;
+    flex: 1 0 auto;
+    padding: var(--space) var(--space) 0;  
+    height: 100%;
+}
+

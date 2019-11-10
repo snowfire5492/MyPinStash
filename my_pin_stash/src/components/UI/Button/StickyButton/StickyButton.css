@@ -1,0 +1,70 @@
+.StickyButton {
+    border: 5px black solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;   
+    position: relative;
+    /* background: #97caef; */
+    background: #bbdbf0;
+    outline: none;
+}
+
+.ButtonShadow {
+    border: 1px rgb(107, 107, 107) transparent;
+    background-color: rgb(107, 107, 107);
+    width: 61px;
+    height: 61px;
+    opacity: .75;
+    border-radius: 100%;
+    outline: none;
+}
+
+
+.ButtonShadow:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px grey;
+} 
+
+
+.VerticalLine {
+    width: 100%;
+    height: 0px;
+    background-color: black;
+    border: 1.5px black solid;
+    position: absolute;
+    top: 48%;
+}
+
+.HorizontalLine {
+    width: 0px;
+    height: 100%;
+    background-color: black;
+    border: 1.5px black solid;
+    position: absolute;
+    left: 48%;
+}
+
+@media (min-width: 700px){
+    .StickyButton {
+        height: 55px;
+        width: 55px;
+        border: 6px black solid;
+    }
+    .ButtonShadow {
+        height: 68px;
+        width: 68px;
+    }
+}
+
+@media (min-width: 1000px){
+    .StickyButton {
+        height: 65px;
+        width: 65px;
+        border: 8px black solid;
+    }
+    .ButtonShadow {
+        height: 82px;
+        width: 82px;
+    }
+}
+

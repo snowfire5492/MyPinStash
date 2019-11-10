@@ -1,0 +1,37 @@
+.SideDrawer {
+    position: absolute;
+    height: 35%;
+    width: 38%;
+    right: 0;
+    top: 44px;
+    border: 1px solid black;
+    background: white;
+    z-index: 120;
+    transition: transform 250ms ease-in-out, opacity 230ms;
+}
+
+@media( min-width: 700px ){
+    .SideDrawer {
+        top: 56px;
+        height: 45%;
+        width: 25%;
+    }
+}
+
+.Open {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.Close {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+/* .BackIcon {
+    position: relative;
+    width: 30px;
+    top: 120px;
+    left: 10px;
+
+} */
